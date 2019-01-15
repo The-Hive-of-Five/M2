@@ -30,8 +30,12 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 1 put your implementation here
-	  return null;
+		String output = "";
+		int rotationLetter = 2;
+		for (int counter = 0; counter < input.length(); counter++) {
+			output += input.charAt((counter + rotationLetter) % input.length());
+		}
+		return output;
 	}
 	
 	/**
@@ -45,5 +49,5 @@ public class Person1 {
 	public String toString(String input) {
 	  return name + calc(input);
 	}
-
+	
 }
