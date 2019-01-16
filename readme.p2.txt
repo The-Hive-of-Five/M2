@@ -1,2 +1,2 @@
 # M2
-Hi, player two ready. 
+Hi, player two, Tanmoy, ready. 
