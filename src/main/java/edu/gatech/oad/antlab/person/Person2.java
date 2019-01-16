@@ -30,8 +30,8 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+	  System.out.println("Implementation");
+	  return "implementation";
 	}
 	/**
 	 * Return a string rep of this object
