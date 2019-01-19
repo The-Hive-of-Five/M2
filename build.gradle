@@ -19,6 +19,11 @@ sourceCompatibility = 1.8
 version = '1.0'
 mainClassName ='edu.gatech.oad.antlab.pkg1.AntLabMain'
 
+// Resources as dependency
+dependencies {
+  compile files('/lib/resources.jar')
+}
+
 //Define the contents of the jar file
 jar  {
   manifest {
@@ -26,8 +31,7 @@ jar  {
                  'Implementation-Version' : version,
                  'Main-Class' : mainClassName
     }
+  from configurations.runtime.collect { zipTree(it) } // compile jar dependencies into jar
 }
-dependencies {
-  compile files('lib/resources.jar')
-}
+
 
