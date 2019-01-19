@@ -1,3 +1,3 @@
 # M2
-Hi, player two, Tanmoy, ready. 
+Tanmoy Panigrahi
 tanmoypanigrahi@gatech.edu
