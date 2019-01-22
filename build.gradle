@@ -21,7 +21,7 @@ mainClassName ='edu.gatech.oad.antlab.pkg1.AntLabMain'
 
 // Resources as dependency
 dependencies {
-  compile files('/lib/resources.jar')
+  compile files('./lib/resources.jar')
 }
 
 //Define the contents of the jar file
